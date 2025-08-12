@@ -1,36 +1,149 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AxonEase Solutions - Professional Website Development & POS Solutions
 
-## Getting Started
+A beautiful, SEO-friendly Bengali website for AxonEase Solutions, a software company specializing in website development and restaurant management POS systems.
 
-First, run the development server:
+## 🌟 Features
+
+- **SEO Optimized**: Complete meta tags, sitemap, robots.txt, and structured data
+- **Bengali Language Support**: Full Bengali text with proper font rendering
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
+- **Modern UI/UX**: Beautiful animations with Framer Motion
+- **ChefHub POS Demo**: Interactive POS system demonstration
+- **Accessibility**: High color contrast and semantic HTML
+- **Performance**: Optimized images and code splitting
+
+## 🚀 Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Styling**: Tailwind CSS 4
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Language**: TypeScript
+- **Fonts**: Inter + Noto Sans Bengali
+
+## 📱 Pages
+
+1. **Home Page** (`/`) - Main landing page with services overview
+2. **ChefHub Demo** (`/demo`) - Interactive POS system demonstration
+3. **Services Section** - Website development, mobile apps, e-commerce
+4. **About Section** - Company information and statistics
+5. **Contact Section** - Contact form and information
+
+## 🎨 Design Features
+
+- **Color Scheme**: Blue primary (#2563eb), Orange secondary (#f59e0b), Green accent (#10b981)
+- **Typography**: Bengali text with proper font fallbacks
+- **Animations**: Smooth scroll animations and hover effects
+- **Gradients**: Beautiful gradient backgrounds and buttons
+- **Shadows**: Subtle shadows for depth and modern look
+
+## 🏪 ChefHub POS Features
+
+- **Menu Management**: Categorized food items with prices
+- **Order Processing**: Real-time order management
+- **Payment Integration**: Multiple payment options
+- **Inventory Tracking**: Stock management system
+- **Staff Management**: Employee management tools
+- **Reporting**: Sales analytics and reports
+
+## 🛠️ Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone <repository-url>
+   cd axonease
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+3. **Run development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**:
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 📦 Build for Production
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 Configuration
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env.local` file for environment-specific configurations:
 
-## Learn More
+```env
+NEXT_PUBLIC_SITE_URL=https://axoneasebd.com
+NEXT_PUBLIC_CONTACT_EMAIL=info@axonease.com
+NEXT_PUBLIC_PHONE=+8801712345678
+```
 
-To learn more about Next.js, take a look at the following resources:
+### SEO Configuration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Update `src/app/layout.tsx` for meta tags
+- Modify `public/sitemap.xml` for your domain
+- Update `public/robots.txt` for search engine directives
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Project Structure
 
-## Deploy on Vercel
+```
+axonease/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx          # Root layout with SEO metadata
+│   │   ├── page.tsx            # Home page
+│   │   ├── demo/
+│   │   │   └── page.tsx        # ChefHub POS demo
+│   │   └── globals.css         # Global styles and Bengali fonts
+├── public/
+│   ├── robots.txt              # SEO robots file
+│   ├── sitemap.xml             # SEO sitemap
+│   └── favicon.ico             # Site favicon
+├── package.json                # Dependencies and scripts
+└── README.md                   # This file
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 SEO Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Meta Tags**: Complete Open Graph and Twitter Card support
+- **Structured Data**: JSON-LD schema markup
+- **Sitemap**: XML sitemap for search engines
+- **Robots.txt**: Search engine crawling directives
+- **Semantic HTML**: Proper heading hierarchy and landmarks
+- **Performance**: Optimized loading and Core Web Vitals
+
+## 🌐 Bengali Language Support
+
+- **Font**: Noto Sans Bengali for proper Bengali text rendering
+- **Content**: All text content in Bengali language
+- **RTL Support**: Ready for Bengali text direction
+- **Localization**: Easy to extend for multiple languages
+
+## 📞 Contact Information
+
+- **Phone**: +880 1712-345678
+- **Email**: info@axonease.com
+- **Address**: Dhanmondi, Dhaka, Bangladesh
+
+## 📄 License
+
+This project is proprietary software owned by AxonEase Solutions.
+
+## 🤝 Contributing
+
+This is a private project for AxonEase Solutions. For inquiries, please contact the development team.
+
+---
+
+**Built with ❤️ by AxonEase Solutions**
